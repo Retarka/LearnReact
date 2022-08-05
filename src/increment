@@ -1,0 +1,14 @@
+import React from "react";
+
+const increment = () => {
+    setCount(prevCount =>  prevCount + 1)
+    setCount(prevCount =>  prevCount + 1)
+
+}
+
+<div>
+    <button type={"button"} onClick={increment}>+</button>
+    <span>
+		      {count}
+	    </span>
+</div>
